@@ -1,19 +1,14 @@
-li {
-  padding: 5px;
-  margin: 5px;
+body {
   background: #faebd7;
 }
 
-.label {
+
+h1 {
+  color: red;
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
+.button {
+  padding-bottom: 20px;
 }
 
-.form-group {
-  margin-bottom: 5px;
-}
