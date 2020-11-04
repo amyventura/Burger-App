@@ -7,7 +7,7 @@ $(document).ready(function() {
     console.log("burger_id");
 
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id, {
+    $.ajax("/burgers/" + burger_id, {
       type: "PUT",
     }).then(
       function(data) {

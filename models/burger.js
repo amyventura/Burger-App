@@ -18,7 +18,7 @@ const burger = {
 
 
     update: function (id, cb) {
-        const condition = "id=" + id;
+        let condition = "id=" + id;
         orm.update("burgers", {
                 devoured: true
             },
